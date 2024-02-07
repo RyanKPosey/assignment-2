@@ -9,7 +9,8 @@ int main() {
     cout << "What is the radius of your sphere?: ";
     cin >> radius;
 
-    double volume = 4 / 3 * pi * (radius * radius * radius);
+    // first value of fraction must be decimal num
+    double volume = 4.0 / 3 * pi * (radius * radius * radius);
 
     cout << "The volume of your sphere is: " << volume << endl;
 }
