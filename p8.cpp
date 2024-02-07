@@ -5,18 +5,15 @@ using namespace std;
 int main () {
     double x;
     double y;
-    double z;
 
     cout << "Pick a number for X: ";
     cin >> x;
     
     cout << "\nPick a number for Y: ";
     cin >> y;
-
-    z = x;
-    x = y;
-    y = z;
-
+    x = x + y;
+    y = x - y;
+    x = x - y;
     cout << "\nX is " << x << ", Y is " << y << endl;
     
 }
