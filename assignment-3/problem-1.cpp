@@ -10,5 +10,5 @@ int main () {
     cin >> y;
 
     area = (x * y) / 2;
-    cout << endl << area << endl;
+    cout << "\nThe area of your triangle is " << area << endl;
 }
