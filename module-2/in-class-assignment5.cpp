@@ -8,11 +8,11 @@ int main () {
     cout << "Enter a character: ";
     cin >> input;
 
-    for (int i = 0; i << sizeof(vowels); i++) {
+    for (int i = 0; i < sizeof(vowels); i++) {
         if (input == vowels[i]) {
             vowel = true;
         }
     }
 
-    cout << endl << vowel << endl << true;
+    cout << endl << (vowel ? "It's a vowel" : "It's not a vowel") << endl;
 }
