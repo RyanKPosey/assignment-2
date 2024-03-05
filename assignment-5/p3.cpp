@@ -31,7 +31,7 @@ int main() {
             month = "July";
             break;
         case 8:
-            month = "Agust";
+            month = "August";
             break;
         case 9:
             month = "September";
