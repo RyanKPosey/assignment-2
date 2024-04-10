@@ -4,8 +4,7 @@ using namespace std;
 
 int main() {
     int total = 0;
-    bool calcContinue = true;
-    for (; calcContinue;) {
+    for (;;) {
         int currentNumber;
 
         cout << "Enter a number to add to the total (enter 0 to stop): ";
@@ -16,7 +15,7 @@ int main() {
         total += currentNumber;
 
         if (currentNumber == 0) {
-            calcContinue = false;
+            break;
         }
     }
 

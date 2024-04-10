@@ -15,12 +15,16 @@ int main() {
 
         if (currentNum > previousNum) {
             previousNum = currentNum;
-            continue;
         } else {
             ascending = false;
+            break;
         }
     }
 
-    cout << ascending << endl;
+    if (ascending) {
+        cout << "Your list of numbers is ascending\n";
+    } else {
+        cout << "Your list of numbers is not ascending\n";
+    }
 
 }

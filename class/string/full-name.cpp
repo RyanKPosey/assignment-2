@@ -6,6 +6,7 @@ int main() {
 
     cout << "Enter your full name: ";
     getline(cin, fullName);
+    cin.ignore();
 
     cout << endl << fullName << endl;
 }

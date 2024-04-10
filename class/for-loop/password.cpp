@@ -11,12 +11,12 @@ int main() {
     
     cout << endl;
 
-    for (; usrPassword != password; NULL) {
+    for (; usrPassword != password;) {
         cout << "Incorrect password, try again\n";
         cout << "Password: ";
         cin >> usrPassword;
         cout << endl;
     }
 
-    cout << "Correct, you're in. \n";
+    cout << "Correct, you're in.\n";
 }

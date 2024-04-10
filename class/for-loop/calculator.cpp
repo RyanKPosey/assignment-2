@@ -9,7 +9,7 @@ int main () {
 
     for(; calcContinue == "Y";) {
         cout << "(1) Addition\n(2) Subtraction\n";
-        cout << "(3) Multiplication\n" "(4) Division\n";
+        cout << "(3) Multiplication\n(4) Division\n";
         cout << "Enter what you want to calculate!: ";
         cin >> calcOption;
 
