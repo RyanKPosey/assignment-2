@@ -6,9 +6,16 @@ int main() {
     getline(cin, str);
     int index = -1;
 
+    bool recordLetter = true;
     for (int i = 0; i < str.length(); i++) {
-        if (str[i] == 'a') {
-            index = i;
+        if (str[i] == ' ') {
+            recordLetter = true;
+        } else if (recordLetter) {
+            recordLetter = false;
+            if (str[i] == 'a') {
+                index = i;
+                break;
+            }
         }
     }
 
