@@ -15,6 +15,7 @@ int main() {
         for (int i2 = i+1; i2 < nums.length(); i2++) {
             if (nums[i2] < nums[i]) {
                 recordNum = false;
+                break;
             }
         }
         if (recordNum) {
