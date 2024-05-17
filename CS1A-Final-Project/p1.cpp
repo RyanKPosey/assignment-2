@@ -38,7 +38,7 @@ void addTask(string tasks[], int& tasksLength) {
 }
 
 int main() {
-    string tasks[] = {};
+    string tasks[100];
     int tasksLength = 0;
 
     printTitle();
