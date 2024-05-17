@@ -34,9 +34,7 @@ void addTask(string tasks[], int& tasksLength) {
     string task;
     cout << "Enter task: ";
     getline(cin, task);
-
     tasks[tasksLength++] = task;
-    cout << "Test\n";
 }
 
 int main() {
