@@ -43,5 +43,12 @@ int main() {
     string tasks[] = {};
     int tasksLength = 0;
 
+    printTitle();
+    cout << endl;
+    displayOptions();
+    cout << endl;
+
+
+
 
 }
