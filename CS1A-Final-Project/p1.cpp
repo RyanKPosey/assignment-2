@@ -37,6 +37,25 @@ void addTask(string tasks[], int& tasksLength) {
     tasks[tasksLength++] = task;
 }
 
+void removeTask(string tasks[], int& tasksLength) {
+    int taskNumber;
+    cout << "Enter task number: ";
+    cin >> taskNumber;
+    cout << endl;
+
+    int taskIndex = taskNumber - 1;
+
+    string next = tasks[tasksLength - 1];
+
+    for (int i = tasksLength - 1; i >= taskIndex; i--) {
+        string temp = tasks[i];
+        tasks[i] = next;
+        next = temp;
+    }
+
+    tasksLength--;
+}
+
 int main() {
     string tasks[100];
     int tasksLength = 0;
