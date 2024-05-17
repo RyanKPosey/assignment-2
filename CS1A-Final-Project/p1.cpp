@@ -3,7 +3,7 @@ using namespace std;
 
 
 void printTitle() {
-    cout << "Welcome to the To-Do List Manager";
+    cout << "Welcome to the To-Do List Manager\n";
 }
 
 void markAsCompleted(string& task) {
