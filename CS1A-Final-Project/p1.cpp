@@ -9,3 +9,10 @@ void printTitle() {
 void markAsCompleted(string& task) {
     task += " [completed]";
 }
+
+int main() {
+    string tasks[] = {};
+    int tasksLength = 0;
+
+
+}
