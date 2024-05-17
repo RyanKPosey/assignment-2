@@ -53,6 +53,7 @@ int main() {
         cout << "Choose an option: ";
         cin >> answerChoice;
         cout << endl;
+        cin.ignore();
 
     } while (answerChoice != 5);
 
