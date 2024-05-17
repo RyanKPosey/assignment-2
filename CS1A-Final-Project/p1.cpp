@@ -72,6 +72,23 @@ int main() {
         cout << endl;
         cin.ignore();
 
+        switch(answerChoice) {
+            case 1:
+                addTask(tasks, tasksLength);
+                break;
+            case 2:
+                displayTasks(tasks, tasksLength);
+                break;
+            case 3:
+                removeTask(tasks, tasksLength);
+                break;
+            case 4:
+                markAsCompleted(tasks);
+                break;
+            case 5:
+                cout << "Exiting...\n";
+                break;
+        }
     } while (answerChoice != 5);
 
 
