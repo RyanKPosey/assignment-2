@@ -48,7 +48,13 @@ int main() {
     displayOptions();
     cout << endl;
 
+    int answerChoice;
+    do {
+        cout << "Choose an option: ";
+        cin >> answerChoice;
+        cout << "\n";
 
+    } while (answerChoice != 5);
 
 
 }
