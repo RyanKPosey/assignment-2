@@ -52,7 +52,7 @@ int main() {
     do {
         cout << "Choose an option: ";
         cin >> answerChoice;
-        cout << "\n";
+        cout << endl;
 
     } while (answerChoice != 5);
 
