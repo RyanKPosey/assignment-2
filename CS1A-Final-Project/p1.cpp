@@ -6,6 +6,15 @@ void printTitle() {
     cout << "Welcome to the To-Do List Manager\n";
 }
 
+void displayOptions() {
+    cout << "1. Add Task\n"
+        << "2. Display Tasks\n"
+        << "3. Remove Task\n"
+        << "4. Mark Task as Completed\n"
+        << "5. Exit\n";
+
+}
+
 void markAsCompleted(string tasks[]) {
     int taskNumber;
     cout << "Enter task number: ";
