@@ -88,6 +88,9 @@ int main() {
             case 5:
                 cout << "Exiting...\n";
                 break;
+            default:
+                cout << "That isn't an option!\n";
+                break;
         }
     } while (answerChoice != 5);
 
