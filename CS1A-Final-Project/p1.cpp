@@ -2,7 +2,7 @@
 using namespace std;
 
 
-void printTitle() {
+void displayTitle() {
     cout << "Welcome to the To-Do List Manager\n";
 }
 
@@ -60,7 +60,7 @@ int main() {
     string tasks[100];
     int tasksLength = 0;
 
-    printTitle();
+    displayTitle();
     cout << endl;
     displayOptions();
     cout << endl;
